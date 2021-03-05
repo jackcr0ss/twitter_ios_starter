@@ -48,7 +48,7 @@
             </objects>
             <point key="canvasLocation" x="-812" y="-151.57421289355324"/>
         </scene>
-        <!--Root View Controller-->
+        <!--Home-->
         <scene sceneID="n1F-3k-SYL">
             <objects>
                 <tableViewController id="sPN-Qt-b0g" sceneMemberID="viewController">
@@ -71,7 +71,11 @@
                             <outlet property="delegate" destination="sPN-Qt-b0g" id="sxC-yg-Rkq"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Root View Controller" id="U7T-ka-7Pj"/>
+                    <navigationItem key="navigationItem" title="Home" id="U7T-ka-7Pj">
+                        <barButtonItem key="leftBarButtonItem" title="Logout" id="jkG-VN-TJh">
+                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </barButtonItem>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="k5c-mJ-QtB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -84,6 +88,13 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="02h-Ki-1Ky">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="56"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.50614141670000001" green="0.78791826369999995" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </textAttributes>
+                        <textAttributes key="largeTitleTextAttributes">
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </textAttributes>
                     </navigationBar>
                     <connections>
                         <segue destination="sPN-Qt-b0g" kind="relationship" relationship="rootViewController" id="wfq-wl-IgJ"/>
