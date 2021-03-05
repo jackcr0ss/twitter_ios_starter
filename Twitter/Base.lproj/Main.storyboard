@@ -57,7 +57,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="tweetCell" rowHeight="120" id="5Fw-iV-hVJ">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="tweetCell" rowHeight="120" id="5Fw-iV-hVJ" customClass="TweetCellTableViewCell" customModule="Twitter" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="28" width="375" height="120"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="5Fw-iV-hVJ" id="auJ-dQ-F7C">
@@ -95,6 +95,11 @@
                                         <constraint firstItem="PM0-u6-heu" firstAttribute="trailing" secondItem="auJ-dQ-F7C" secondAttribute="trailingMargin" id="spX-qi-LNc"/>
                                     </constraints>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="profileimageView" destination="95F-fb-QpG" id="ycU-g9-pyj"/>
+                                    <outlet property="tweetContent" destination="PM0-u6-heu" id="r7G-0S-7hy"/>
+                                    <outlet property="userNameLabel" destination="f6u-On-0HV" id="tkG-6g-wvi"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
