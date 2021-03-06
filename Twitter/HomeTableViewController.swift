@@ -30,14 +30,16 @@ class HomeTableViewController: UITableViewController {
 
         TwitterAPICaller.client?.getDictionariesRequest(url: myUrl, parameters: myParams, success: { (tweets: [NSDictionary]) in
             
+            self.tweetArray.removeAll()
             for tweet in tweets{
-                
                 self.tweetArray.append(tweet)
             }
             
             
             
-        }, failure: <#T##(Error) -> ()#>)
+        }, failure: { (Error) in
+            print("Could not retrieve tweet! OH NO")
+        })
         
     }
     
