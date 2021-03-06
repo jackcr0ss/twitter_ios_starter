@@ -12,7 +12,7 @@ class HomeTableViewController: UITableViewController {
 
     
     var tweetArray = [NSDictionary]()
-    
+    var numberOfTweet: Int!
     
     
     
@@ -21,6 +21,18 @@ class HomeTableViewController: UITableViewController {
 
        
     }
+    
+    
+    func loadTweet(){
+        
+        let myUrl = "https://api.twitter.com/1.1/statuses/home_timeline.json
+        
+"
+        TwitterAPICaller.client?.getDictionariesRequest(url: <#T##String#>, parameters: <#T##[String : Any]#>, success: <#T##([NSDictionary]) -> ()#>, failure: <#T##(Error) -> ()#>)
+        
+    }
+    
+    
 
     @IBAction func onLogout(_ sender: Any) {
         TwitterAPICaller.client?.logout()
