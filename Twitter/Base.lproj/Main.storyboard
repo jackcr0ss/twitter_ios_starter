@@ -114,11 +114,29 @@
                                 <action selector="onLogout:" destination="sPN-Qt-b0g" id="hhb-ym-yY3"/>
                             </connections>
                         </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" title="Tweet" style="plain" id="OF3-Yk-h4l">
+                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </barButtonItem>
                     </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="k5c-mJ-QtB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1016.8" y="-152.47376311844079"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="giF-IN-Pnb">
+            <objects>
+                <viewController id="ifL-xb-XX4" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="oRB-YH-Zgc">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="Jii-Wh-Vwu"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cJi-9Q-tQW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1765" y="-224"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="aMx-GC-lJv">
