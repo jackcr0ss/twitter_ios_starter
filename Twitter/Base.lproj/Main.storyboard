@@ -91,8 +91,8 @@
                                             </constraints>
                                             <state key="normal" image="favor-icon-1"/>
                                         </button>
-                                        <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="064-V3-Q0V" userLabel="retweetButton">
-                                            <rect key="frame" x="273" y="99" width="30" height="30"/>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="064-V3-Q0V" userLabel="retweetButton">
+                                            <rect key="frame" x="279" y="99" width="30" height="30"/>
                                             <constraints>
                                                 <constraint firstAttribute="width" constant="30" id="lBw-xg-AhE"/>
                                                 <constraint firstAttribute="height" constant="30" id="raS-p4-QK1"/>
@@ -105,6 +105,7 @@
                                         <constraint firstItem="Bjb-I6-cxH" firstAttribute="top" secondItem="PM0-u6-heu" secondAttribute="bottom" constant="10" id="7KW-72-tdi"/>
                                         <constraint firstAttribute="trailingMargin" secondItem="Bjb-I6-cxH" secondAttribute="trailing" constant="10" id="BVF-HF-gie"/>
                                         <constraint firstAttribute="bottomMargin" secondItem="064-V3-Q0V" secondAttribute="bottom" constant="10" id="Hgo-Rn-i93"/>
+                                        <constraint firstItem="Bjb-I6-cxH" firstAttribute="leading" secondItem="064-V3-Q0V" secondAttribute="trailing" constant="10" id="IT1-mf-Ttl"/>
                                         <constraint firstItem="f6u-On-0HV" firstAttribute="top" secondItem="auJ-dQ-F7C" secondAttribute="topMargin" id="Ski-ra-Kvq"/>
                                         <constraint firstItem="f6u-On-0HV" firstAttribute="leading" secondItem="95F-fb-QpG" secondAttribute="trailing" constant="8" id="dN0-fP-mN9"/>
                                         <constraint firstItem="PM0-u6-heu" firstAttribute="top" secondItem="f6u-On-0HV" secondAttribute="bottom" constant="4" id="f9d-V0-DbC"/>
