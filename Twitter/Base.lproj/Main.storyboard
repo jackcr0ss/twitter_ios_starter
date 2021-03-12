@@ -137,7 +137,6 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="128" id="TW0-tl-ksp"/>
                                 </constraints>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -151,7 +150,20 @@
                             <constraint firstItem="Jii-Wh-Vwu" firstAttribute="trailing" secondItem="kct-kN-utd" secondAttribute="trailing" id="vbB-JK-MkD"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="wSy-kJ-Dbg"/>
+                    <navigationItem key="navigationItem" id="wSy-kJ-Dbg">
+                        <barButtonItem key="leftBarButtonItem" title="Cancel" style="plain" id="o8B-mC-dRc">
+                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <connections>
+                                <action selector="cancel:" destination="ifL-xb-XX4" id="oU2-4j-1v3"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" title="Tweet" style="plain" id="ncz-WV-eT7">
+                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <connections>
+                                <action selector="tweet:" destination="ifL-xb-XX4" id="vd0-sZ-J4S"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cJi-9Q-tQW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -180,14 +192,15 @@
             </objects>
             <point key="canvasLocation" x="89" y="-152"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--Tweet Navigation controller-->
         <scene sceneID="7mL-Hh-kw9">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="cRh-js-Vr1" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="cRh-js-Vr1" userLabel="Tweet Navigation controller" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="gHg-UN-msU">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.52661192209999996" green="0.82984169220000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
