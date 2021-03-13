@@ -116,7 +116,9 @@
                                     </constraints>
                                 </tableViewCellContentView>
                                 <connections>
+                                    <outlet property="favButton" destination="Bjb-I6-cxH" id="qJq-UR-5VC"/>
                                     <outlet property="profileimageView" destination="95F-fb-QpG" id="ycU-g9-pyj"/>
+                                    <outlet property="retweetButton" destination="064-V3-Q0V" id="BAj-i8-8mI"/>
                                     <outlet property="tweetContent" destination="PM0-u6-heu" id="r7G-0S-7hy"/>
                                     <outlet property="userNameLabel" destination="f6u-On-0HV" id="tkG-6g-wvi"/>
                                 </connections>
